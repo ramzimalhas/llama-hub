@@ -3,34 +3,34 @@
 ## Tech Stack
 ramzimalhas/llama-hub is built on the following main stack:
 
-- [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - [Python](https://www.python.org) – Languages
 - [Swift](https://developer.apple.com/swift/) – Languages
-- [MySQL](http://www.mysql.com) – Databases
-- [MongoDB](http://www.mongodb.com/) – Databases
-- [Redis](http://redis.io/) – In-Memory Databases
-- [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- [OpenCV](http://opencv.org/) – Image Processing and Management
-- [Neo4j](http://www.neo4j.com/) – Graph Databases
-- [Logstash](http://logstash.net/) – Log Management
-- [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
-- [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
-- [Pillow](https://python-pillow.github.io/) – Image Processing and Management
 - [Matplotlib](http://matplotlib.org) – Charting Libraries
-- [Jupyter](http://jupyter.org) – Data Science Notebooks
-- [Torch](http://torch.ch/) – Machine Learning Tools
+- [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
+- [Cloud Firestore](https://firebase.google.com/products/firestore/) – NoSQL Database as a Service
 - [Minio](https://minio.io/) – Cloud Storage
-- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [MongoDB](http://www.mongodb.com/) – Databases
+- [MySQL](http://www.mysql.com) – Databases
+- [Neo4j](http://www.neo4j.com/) – Graph Databases
+- [Redis](http://redis.io/) – In-Memory Databases
+- [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
+- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- [Logstash](http://logstash.net/) – Log Management
+- [Playwright](https://github.com/microsoft/playwright) – Browser Testing
 - [Pylint](https://www.pylint.org/) – Code Review
 - [AssemblyAI](https://www.assemblyai.com/) – Speech Recognition as a Service
-- [Cloud Firestore](https://firebase.google.com/products/firestore/) – NoSQL Database as a Service
-- [Streamlit](https://streamlit.io) – Machine Learning Tools
-- [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- [Playwright](https://github.com/microsoft/playwright) – Browser Testing
-- [Pinecone](https://www.pinecone.io/) – Search as a Service
-- [OpenAI](https://openai.com/) – Large Language Models
-- [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/) – Large Language Model Tools
+- [OpenCV](http://opencv.org/) – Image Processing and Management
+- [Pillow](https://python-pillow.github.io/) – Image Processing and Management
+- [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- [Jupyter](http://jupyter.org) – Data Science Notebooks
 - [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
+- [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/) – Large Language Model Tools
+- [OpenAI](https://openai.com/) – Large Language Models
+- [Pinecone](https://www.pinecone.io/) – Search as a Service
+- [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- [Streamlit](https://streamlit.io) – Machine Learning Tools
+- [Torch](http://torch.ch/) – Machine Learning Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -40,34 +40,34 @@ Full tech stack [here](/techstack.md)
 ## Tech Stack
 ramzimalhas/llama-hub is built on the following main stack:
 
-- <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1009/tuHsaI2U.png' alt='Swift'/> [Swift](https://developer.apple.com/swift/) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
-- <img width='25' height='25' src='https://img.stackshare.io/service/1293/opencv-logo-64x64.png' alt='OpenCV'/> [OpenCV](http://opencv.org/) – Image Processing and Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/1482/FbkjM42a.png' alt='Neo4j'/> [Neo4j](http://www.neo4j.com/) – Graph Databases
-- <img width='25' height='25' src='https://img.stackshare.io/service/1683/preview.png' alt='Logstash'/> [Logstash](http://logstash.net/) – Log Management
-- <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
-- <img width='25' height='25' src='https://img.stackshare.io/service/2099/azureStorage.png' alt='Azure Storage'/> [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
-- <img width='25' height='25' src='https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg' alt='Pillow'/> [Pillow](https://python-pillow.github.io/) – Image Processing and Management
 - <img width='25' height='25' src='https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg' alt='Matplotlib'/> [Matplotlib](http://matplotlib.org) – Charting Libraries
-- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
-- <img width='25' height='25' src='https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png' alt='Torch'/> [Torch](http://torch.ch/) – Machine Learning Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/2099/azureStorage.png' alt='Azure Storage'/> [Azure Storage](http://azure.microsoft.com/en-us/services/storage/) – Cloud Storage
+- <img width='25' height='25' src='https://img.stackshare.io/service/7696/Untitled-5.png' alt='Cloud Firestore'/> [Cloud Firestore](https://firebase.google.com/products/firestore/) – NoSQL Database as a Service
 - <img width='25' height='25' src='https://img.stackshare.io/service/4485/gTawkyAA.png' alt='Minio'/> [Minio](https://minio.io/) – Cloud Storage
-- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/1030/leaf-360x360.png' alt='MongoDB'/> [MongoDB](http://www.mongodb.com/) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1025/logo-mysql-170x170.png' alt='MySQL'/> [MySQL](http://www.mysql.com) – Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1482/FbkjM42a.png' alt='Neo4j'/> [Neo4j](http://www.neo4j.com/) – Graph Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png' alt='Redis'/> [Redis](http://redis.io/) – In-Memory Databases
+- <img width='25' height='25' src='https://img.stackshare.io/service/1839/q5uAkmy7.png' alt='SQLAlchemy'/> [SQLAlchemy](http://www.sqlalchemy.org/) – Object Relational Mapper (ORM)
+- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
+- <img width='25' height='25' src='https://img.stackshare.io/service/1683/preview.png' alt='Logstash'/> [Logstash](http://logstash.net/) – Log Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png' alt='Playwright'/> [Playwright](https://github.com/microsoft/playwright) – Browser Testing
 - <img width='25' height='25' src='https://img.stackshare.io/service/4837/py.jpg' alt='Pylint'/> [Pylint](https://www.pylint.org/) – Code Review
 - <img width='25' height='25' src='https://img.stackshare.io/service/7432/1_5wVCU4MUFhUGqOZHMz8z7Q.png' alt='AssemblyAI'/> [AssemblyAI](https://www.assemblyai.com/) – Speech Recognition as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/7696/Untitled-5.png' alt='Cloud Firestore'/> [Cloud Firestore](https://firebase.google.com/products/firestore/) – NoSQL Database as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/11393/default_67e251b5860795095fe91618cf3ef8d09257469a.png' alt='Streamlit'/> [Streamlit](https://streamlit.io) – Machine Learning Tools
-- <img width='25' height='25' src='https://img.stackshare.io/service/11563/actions.png' alt='GitHub Actions'/> [GitHub Actions](https://github.com/features/actions) – Continuous Integration
-- <img width='25' height='25' src='https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png' alt='Playwright'/> [Playwright](https://github.com/microsoft/playwright) – Browser Testing
-- <img width='25' height='25' src='https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png' alt='Pinecone'/> [Pinecone](https://www.pinecone.io/) – Search as a Service
-- <img width='25' height='25' src='https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg' alt='OpenAI'/> [OpenAI](https://openai.com/) – Large Language Models
-- <img width='25' height='25' src='https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg' alt='LlamaIndex'/> [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/1293/opencv-logo-64x64.png' alt='OpenCV'/> [OpenCV](http://opencv.org/) – Image Processing and Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg' alt='Pillow'/> [Pillow](https://python-pillow.github.io/) – Image Processing and Management
+- <img width='25' height='25' src='https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png' alt='Elasticsearch'/> [Elasticsearch](https://www.elastic.co/products/elasticsearch) – Search as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg' alt='Jupyter'/> [Jupyter](http://jupyter.org) – Data Science Notebooks
 - <img width='25' height='25' src='https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png' alt='LLaMA'/> [LLaMA](https://ai.meta.com/blog/large-language-model-llama-meta-ai/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg' alt='LlamaIndex'/> [LlamaIndex](https://gpt-index.readthedocs.io/en/latest/) – Large Language Model Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg' alt='OpenAI'/> [OpenAI](https://openai.com/) – Large Language Models
+- <img width='25' height='25' src='https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png' alt='Pinecone'/> [Pinecone](https://www.pinecone.io/) – Search as a Service
+- <img width='25' height='25' src='https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png' alt='Shell'/> [Shell](https://en.wikipedia.org/wiki/Shell_script) – Shells
+- <img width='25' height='25' src='https://img.stackshare.io/service/11393/default_67e251b5860795095fe91618cf3ef8d09257469a.png' alt='Streamlit'/> [Streamlit](https://streamlit.io) – Machine Learning Tools
+- <img width='25' height='25' src='https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png' alt='Torch'/> [Torch](http://torch.ch/) – Machine Learning Tools
 
 Full tech stack [here](/techstack.md)
 
@@ -78,7 +78,7 @@ Full tech stack [here](/techstack.md)
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [ramzimalhas/llama-hub](https://github.com/ramzimalhas/llama-hub)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|103<br/>Tools used|01/23/24 <br/>Report generated|
+|103<br/>Tools used|02/29/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -376,7 +376,7 @@ Full tech stack [here](/techstack.md)
 |[PyPDF2](https://pypi.org/project/PyPDF2)|v3.0.1|09/07/23|Shaurya Rohatgi |Other|[CVE-2023-36464](https://github.com/advisories/GHSA-4vvm-4w3v-6mr8) (Moderate)|
 |[PyYAML](https://pypi.org/project/PyYAML)|v6.0.1|07/29/23|Astarag Mohapatra |MIT|N/A|
 |[ShopifyAPI](https://pypi.org/project/ShopifyAPI)|N/A|08/09/23|Adam Hofmann |MIT|N/A|
-|[aiohttp](https://pypi.org/project/aiohttp)|v3.9.1|07/29/23|Astarag Mohapatra |Apache-2.0|N/A|
+|[aiohttp](https://pypi.org/project/aiohttp)|v3.9.1|07/29/23|Astarag Mohapatra |Apache-2.0|[CVE-2024-23334](https://github.com/advisories/GHSA-5h86-8mv2-jq9f) (Moderate)<br/>[CVE-2024-23829](https://github.com/advisories/GHSA-8qpw-xqxj-h4r2) (Moderate)|
 |[ansi2html](https://pypi.org/project/ansi2html)|N/A|11/22/23|Logan |LGPL-3.0|N/A|
 |[asana](https://pypi.org/project/asana)|N/A|02/16/23|David Bloomin |MIT|N/A|
 |[atlassian-python-api](https://pypi.org/project/atlassian-python-api)|N/A|03/21/23|William Li |Apache-2.0|N/A|
@@ -429,7 +429,7 @@ Full tech stack [here](/techstack.md)
 |[selenium](https://pypi.org/project/selenium)|v4.8.3|10/09/23|Astarag Mohapatra |Apache-2.0|N/A|
 |[simple-salesforce](https://pypi.org/project/simple-salesforce)|N/A|09/12/23|Chris Pang |Apache-2.0|N/A|
 |[spotipy](https://pypi.org/project/spotipy)|N/A|02/24/23|Edwin Ong |Other|N/A|
-|[starlette](https://pypi.org/project/starlette)|v0.30.0|07/29/23|Astarag Mohapatra |BSD-3-Clause|N/A|
+|[starlette](https://pypi.org/project/starlette)|v0.30.0|07/29/23|Astarag Mohapatra |BSD-3-Clause|[CVE-2024-24762](https://github.com/advisories/GHSA-2jv5-9r88-3w3p) (High)<br/>[](https://github.com/advisories/GHSA-93gm-qmq6-w238) (High)|
 |[tenacity](https://pypi.org/project/tenacity)|v8.2.3|11/28/23|Astarag Mohapatra |Apache-2.0|N/A|
 |[torchvision](https://pypi.org/project/torchvision)|N/A|02/04/23|EmptyCrown |BSD-3-Clause|N/A|
 |[tqdm](https://pypi.org/project/tqdm)|v4.66.1|10/07/23|Hossam Hammady |MPL-2.0,MIT|N/A|
