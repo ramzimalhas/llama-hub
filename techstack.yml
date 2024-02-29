@@ -2,7 +2,7 @@ repo_name: ramzimalhas/llama-hub
 report_id: 53d026a68e547d8a74d54de89f4c33bd
 version: 0.1
 repo_type: Public
-timestamp: '2024-01-23T07:03:03+00:00'
+timestamp: '2024-02-29T19:32:34+00:00'
 requested_by: Athe-kunal
 provider: github
 branch: main
@@ -31,7 +31,7 @@ tools:
   detection_source_url: https://github.com/ramzimalhas/llama-hub
   detection_source: Repo Metadata
 - name: Swift
-  description: 'An innovative new programming language for Cocoa and Cocoa Touch. '
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
   website_url: https://developer.apple.com/swift/
   license: Apache-2.0
   open_source: true
@@ -506,6 +506,20 @@ tools:
   detection_source: llama_hub/sec_filings/requirements.txt
   last_updated_by: Astarag Mohapatra
   last_updated_on: 2023-07-29 06:20:39.000000000 Z
+  vulnerabilities:
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
 - name: ansi2html
   description: Convert text with ANSI color codes to HTML
   package_url: https://pypi.org/project/ansi2html
@@ -1212,6 +1226,19 @@ tools:
   detection_source: llama_hub/sec_filings/requirements.txt
   last_updated_by: Astarag Mohapatra
   last_updated_on: 2023-07-29 06:20:39.000000000 Z
+  vulnerabilities:
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette Content-Type Header ReDoS'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-93gm-qmq6-w238
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.36.2
 - name: tenacity
   description: Retry code until it succeeds
   package_url: https://pypi.org/project/tenacity
