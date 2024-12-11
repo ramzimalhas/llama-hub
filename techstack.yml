@@ -1,0 +1,1388 @@
+repo_name: ramzimalhas/llama-hub
+report_id: 53d026a68e547d8a74d54de89f4c33bd
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-29T19:32:34+00:00'
+requested_by: Athe-kunal
+provider: github
+branch: main
+detected_tools_count: 103
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ramzimalhas/llama-hub
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub
+  detection_source: Repo Metadata
+- name: Swift
+  description: An innovative new programming language for Cocoa and Cocoa Touch.
+  website_url: https://developer.apple.com/swift/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1009/tuHsaI2U.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/tools/yelp/requirements.txt
+  detection_source: llama_hub/tools/yelp/requirements.txt
+  last_updated_by: Adam Hofmann
+  last_updated_on: 2023-07-12 17:21:22.000000000 Z
+- name: Matplotlib
+  description: A plotting library for the Python programming language
+  website_url: http://matplotlib.org
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/2993/2DZC4KaA_400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/tools/text_to_image/requirements.txt
+  detection_source: llama_hub/tools/text_to_image/requirements.txt
+  last_updated_by: Adam Hofmann
+  last_updated_on: 2023-07-22 00:51:33.000000000 Z
+- name: Azure Storage
+  description: Reliable, economical cloud storage for data big and small
+  website_url: http://azure.microsoft.com/en-us/services/storage/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/2099/azureStorage.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/azstorage_blob/requirements.txt
+  detection_source: llama_hub/azstorage_blob/requirements.txt
+  last_updated_by: Rivaaj Jumna
+  last_updated_on: 2023-05-21 21:12:44.000000000 Z
+- name: Cloud Firestore
+  description: NoSQL database built for global apps
+  website_url: https://firebase.google.com/products/firestore/
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: NoSQL Database as a Service
+  image_url: https://img.stackshare.io/service/7696/Untitled-5.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/firestore/requirements.txt
+  detection_source: llama_hub/firestore/requirements.txt
+  last_updated_by: Ray Zhu
+  last_updated_on: 2023-06-06 07:29:31.000000000 Z
+- name: Minio
+  description: AWS S3 open source alternative written in Go
+  website_url: https://minio.io/
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Cloud Storage
+  image_url: https://img.stackshare.io/service/4485/gTawkyAA.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/minio/minio-client/requirements.txt
+  detection_source: llama_hub/minio/minio-client/requirements.txt
+  last_updated_by: webcoderz
+  last_updated_on: 2023-10-05 04:06:18.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/mongo/base.py
+  detection_source: llama_hub/mongo/base.py
+  last_updated_by: David Chiu
+  last_updated_on: 2023-11-09 12:24:33.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/singlestore/requirements.txt
+  detection_source: llama_hub/singlestore/requirements.txt
+  last_updated_by: apeng-singlestore
+  last_updated_on: 2023-07-22 00:34:04.000000000 Z
+- name: Neo4j
+  description: The world’s leading Graph Database
+  website_url: http://www.neo4j.com/
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Graph Databases
+  image_url: https://img.stackshare.io/service/1482/FbkjM42a.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/graphdb_cypher/requirements.txt
+  detection_source: llama_hub/graphdb_cypher/requirements.txt
+  last_updated_by: Michael Hunger
+  last_updated_on: 2023-05-26 15:41:03.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/llama_packs/redis_ingestion_pipeline/requirements.txt
+  detection_source: llama_hub/llama_packs/redis_ingestion_pipeline/requirements.txt
+  last_updated_by: Logan
+  last_updated_on: 2023-11-22 01:12:31.000000000 Z
+- name: SQLAlchemy
+  description: The Python SQL Toolkit and Object Relational Mapper
+  website_url: http://www.sqlalchemy.org/
+  version: 2.0.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/1839/q5uAkmy7.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/athena/requirements.txt
+  last_updated_by: matichon-vultureprime
+  last_updated_on: 2023-10-13 20:01:53.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/.github/workflows/lint.yml
+  detection_source: ".github/workflows/lint.yml"
+  last_updated_by: Emanuel Ferreira
+  last_updated_on: 2023-09-26 09:11:34.000000000 Z
+- name: Logstash
+  description: Collect, Parse, &amp; Enrich Data
+  website_url: http://logstash.net/
+  open_source: true
+  hosted_saas: false
+  category: Monitoring
+  sub_category: Log Management
+  image_url: https://img.stackshare.io/service/1683/preview.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/elasticsearch/requirements.txt
+  detection_source: llama_hub/elasticsearch/requirements.txt
+  last_updated_by: sadegh1404
+  last_updated_on: 2023-09-10 05:27:29.000000000 Z
+- name: Playwright
+  description: Node library to automate Chromium, Firefox and WebKit with a single
+    API (By Microsoft)
+  website_url: https://github.com/microsoft/playwright
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/11955/default_48baa40615243f437bc3b182e62ddfe0290fca4b.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/web/knowledge_base/requirements.txt
+  detection_source: llama_hub/web/knowledge_base/requirements.txt
+  last_updated_by: Yichen Yan
+  last_updated_on: 2023-03-06 10:05:45.000000000 Z
+- name: PyPI
+  description: A repository of software for the Python programming language
+  website_url: https://pypi.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Hosted Package Repository
+  image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-05-31 00:18:57.000000000 Z
+- name: Pylint
+  description: Source-code, bug and quality checker for the Python programming language
+  website_url: https://www.pylint.org/
+  version: 2.15.10
+  license: GPL-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4837/py.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/test_requirements.txt
+  detection_source: test_requirements.txt
+  last_updated_by: Emanuel Ferreira
+  last_updated_on: 2023-09-26 09:11:34.000000000 Z
+- name: AssemblyAI
+  description: API for customizable speech recognition
+  website_url: https://www.assemblyai.com/
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Speech Recognition as a Service
+  image_url: https://img.stackshare.io/service/7432/1_5wVCU4MUFhUGqOZHMz8z7Q.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/assemblyai/requirements.txt
+  detection_source: llama_hub/assemblyai/requirements.txt
+  last_updated_by: Patrick Loeber
+  last_updated_on: 2023-10-05 21:56:47.000000000 Z
+- name: OpenCV
+  description: Open Source Computer Vision Library
+  website_url: http://opencv.org/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/1293/opencv-logo-64x64.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/pdf_table/requirements.txt
+  detection_source: llama_hub/pdf_table/requirements.txt
+  last_updated_by: Seyoung Kim
+  last_updated_on: 2023-08-24 02:32:46.000000000 Z
+- name: Pillow
+  description: Python Imaging Library
+  website_url: https://python-pillow.github.io/
+  open_source: true
+  hosted_saas: false
+  category: Assets and Media
+  sub_category: Image Processing and Management
+  image_url: https://img.stackshare.io/service/2375/default_1f67b0ca7416a9f52beb655f90b5602d5ef74b75.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/confluence/requirements.txt
+  detection_source: llama_hub/confluence/requirements.txt
+  last_updated_by: William Li
+  last_updated_on: 2023-04-01 17:18:46.000000000 Z
+- name: CocoaPods
+  description: A dependency manager for Swift and Objective-C Cocoa projects
+  website_url: https://cocoapods.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: CocoaPods Packages
+  image_url: https://img.stackshare.io/service/2426/e1cbdef9d4b11484049a033886578e54_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/tools/yelp/requirements.txt
+  detection_source: llama_hub/tools/yelp/requirements.txt
+  last_updated_by: Adam Hofmann
+  last_updated_on: 2023-07-12 17:21:22.000000000 Z
+- name: Elasticsearch
+  description: Open Source, Distributed, RESTful Search Engine
+  website_url: https://www.elastic.co/products/elasticsearch
+  version: '8.9'
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/841/Image_2019-05-20_at_4.58.04_PM.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/elasticsearch/requirements.txt
+  detection_source: llama_hub/elasticsearch/requirements.txt
+  last_updated_by: sadegh1404
+  last_updated_on: 2023-09-10 05:27:29.000000000 Z
+- name: Jupyter
+  description: Multi-language interactive computing environments.
+  website_url: http://jupyter.org
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Data Science Notebooks
+  image_url: https://img.stackshare.io/service/4190/fGBUdNf__400x400.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama-hub
+  detection_source: Repo Metadata
+- name: LLaMA
+  description: A foundational, 65-billion-parameter large language model (By Facebook)
+  website_url: https://ai.meta.com/blog/large-language-model-llama-meta-ai/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/101870/default_110df704ee9867cb49e02a51b680222cc0b61823.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-05-31 00:18:57.000000000 Z
+- name: LlamaIndex
+  description: A central interface to connect your LLMs with external data
+  website_url: https://gpt-index.readthedocs.io/en/latest/
+  open_source: true
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Model Tools
+  image_url: https://img.stackshare.io/service/48791/default_350cf2fa84700345e34d9eef2ecc1aa29319e91a.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/pyproject.toml
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-28 08:41:08.000000000 Z
+- name: OpenAI
+  description: Creating safe AGI that benefits all
+  website_url: https://openai.com/
+  version: 1.3.5
+  open_source: false
+  hosted_saas: false
+  category: Communications
+  sub_category: Large Language Models
+  image_url: https://img.stackshare.io/service/48786/default_8b1119bcbb159cebebc2f6cfc9cd2e359b169d22.jpg
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/llama_packs/gradio_react_agent_chatbot/requirements.txt
+  last_updated_by: Logan
+  last_updated_on: 2023-11-22 01:12:31.000000000 Z
+- name: Pinecone
+  description: Build high-performance vector search applications
+  website_url: https://www.pinecone.io/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Search as a Service
+  image_url: https://img.stackshare.io/service/48784/default_376332a8eee1cdbb0546ca1aaed0b8a7f4d673d7.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/pinecone/requirements.txt
+  detection_source: llama_hub/pinecone/requirements.txt
+  last_updated_by: EmptyCrown
+  last_updated_on: 2023-02-04 04:41:20.000000000 Z
+- name: Shell
+  description: A shell is a text-based terminal, used for manipulating programs and
+    files. Shell scripts typically manage program execution.
+  website_url: https://en.wikipedia.org/wiki/Shell_script
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub
+  detection_source: Repo Metadata
+- name: Streamlit
+  description: A Python app framework built specifically for Machine Learning and
+    Data Science teams
+  website_url: https://streamlit.io
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/11393/default_67e251b5860795095fe91618cf3ef8d09257469a.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/llama_packs/streamlit_chatbot/requirements.txt
+  detection_source: llama_hub/llama_packs/streamlit_chatbot/requirements.txt
+  last_updated_by: Logan
+  last_updated_on: 2023-11-22 01:12:31.000000000 Z
+- name: Torch
+  description: An open-source machine learning library and a script language based
+    on the Lua programming language
+  website_url: http://torch.ch/
+  open_source: true
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Machine Learning Tools
+  image_url: https://img.stackshare.io/service/4475/hpYQzO_U_400x400.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/file/deepdoctection/requirements.txt
+  detection_source: llama_hub/file/deepdoctection/requirements.txt
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-04-27 08:26:26.000000000 Z
+- name: Faker
+  description: Faker is a Python package that generates fake data for you
+  package_url: https://pypi.org/project/Faker
+  version: 19.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20068/default_271333e82c8d92d6ae0f197b10a9c1f791d7b37f.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/sec_filings/requirements.txt
+  detection_source: llama_hub/sec_filings/requirements.txt
+  last_updated_by: Astarag Mohapatra
+  last_updated_on: 2023-07-29 06:20:39.000000000 Z
+- name: PyDrive
+  description: Google Drive API made easy
+  package_url: https://pypi.org/project/PyDrive
+  license: MIT-feh
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/google_drive/requirements.txt
+  detection_source: llama_hub/google_drive/requirements.txt
+  last_updated_by: Ravi Theja
+  last_updated_on: 2023-02-13 02:55:09.000000000 Z
+- name: PyMuPDF
+  description: Python bindings for the PDF rendering library MuPDF
+  package_url: https://pypi.org/project/PyMuPDF
+  version: 1.21.1
+  license: AGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/file/flat_pdf/requirements.txt
+  detection_source: llama_hub/file/flat_pdf/requirements.txt
+  last_updated_by: Emmanuel
+  last_updated_on: 2023-04-01 17:25:17.000000000 Z
+- name: PyMySQL
+  description: Pure Python MySQL Driver
+  package_url: https://pypi.org/project/PyMySQL
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19880/default_3863c7bb51d307217c188e059f67ca417c51efe3.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/singlestore/requirements.txt
+  detection_source: llama_hub/singlestore/requirements.txt
+  last_updated_by: apeng-singlestore
+  last_updated_on: 2023-07-22 00:34:04.000000000 Z
+- name: PyPDF2
+  description: PDF toolkit
+  package_url: https://pypi.org/project/PyPDF2
+  version: 3.0.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20065/default_bb49fb0188726b8922387d8bb6e9b2cd0c3c0ea9.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/semanticscholar/requirements.txt
+  detection_source: llama_hub/semanticscholar/requirements.txt
+  last_updated_by: Shaurya Rohatgi
+  last_updated_on: 2023-09-07 03:04:24.000000000 Z
+  vulnerabilities:
+  - name: pypdf and PyPDF2 possible Infinite Loop when a comment isn't followed by
+      a character
+    cve_id: CVE-2023-36464
+    cve_url: https://github.com/advisories/GHSA-4vvm-4w3v-6mr8
+    detected_date: Jul 1
+    severity: moderate
+    first_patched: 
+- name: PyYAML
+  description: YAML parser and emitter for Python
+  package_url: https://pypi.org/project/PyYAML
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19829/default_74a61b43bdb9fc0cba2978316b9976f43545029b.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/sec_filings/requirements.txt
+  detection_source: llama_hub/sec_filings/requirements.txt
+  last_updated_by: Astarag Mohapatra
+  last_updated_on: 2023-07-29 06:20:39.000000000 Z
+- name: ShopifyAPI
+  description: Shopify API for Python
+  package_url: https://pypi.org/project/ShopifyAPI
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/tools/shopify/requirements.txt
+  detection_source: llama_hub/tools/shopify/requirements.txt
+  last_updated_by: Adam Hofmann
+  last_updated_on: 2023-08-09 07:05:13.000000000 Z
+- name: aiohttp
+  description: Async http client/server framework
+  package_url: https://pypi.org/project/aiohttp
+  version: 3.9.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19852/default_d748224707283d9d8a73c2323730c87bda6b313a.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/sec_filings/requirements.txt
+  last_updated_by: Astarag Mohapatra
+  last_updated_on: 2023-07-29 06:20:39.000000000 Z
+  vulnerabilities:
+  - name: aiohttp is vulnerable to directory traversal
+    cve_id: CVE-2024-23334
+    cve_url: https://github.com/advisories/GHSA-5h86-8mv2-jq9f
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+  - name: aiohttp's HTTP parser (the python one, not llhttp) still overly lenient
+      about separators
+    cve_id: CVE-2024-23829
+    cve_url: https://github.com/advisories/GHSA-8qpw-xqxj-h4r2
+    detected_date: Jan 30
+    severity: moderate
+    first_patched: 3.9.2
+- name: ansi2html
+  description: Convert text with ANSI color codes to HTML
+  package_url: https://pypi.org/project/ansi2html
+  license: LGPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/llama_packs/gradio_agent_chat/requirements.txt
+  detection_source: llama_hub/llama_packs/gradio_agent_chat/requirements.txt
+  last_updated_by: Logan
+  last_updated_on: 2023-11-22 04:45:51.000000000 Z
+- name: asana
+  description: Asana API client
+  package_url: https://pypi.org/project/asana
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/asana/requirements.txt
+  detection_source: llama_hub/asana/requirements.txt
+  last_updated_by: David Bloomin
+  last_updated_on: 2023-02-16 04:18:31.000000000 Z
+- name: atlassian-python-api
+  description: Python Atlassian REST API Wrapper
+  package_url: https://pypi.org/project/atlassian-python-api
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/confluence/requirements.txt
+  detection_source: llama_hub/confluence/requirements.txt
+  last_updated_by: William Li
+  last_updated_on: 2023-03-21 23:17:57.000000000 Z
+- name: azure-storage-blob
+  description: Microsoft Azure Blob Storage Client Library for Python
+  package_url: https://pypi.org/project/azure-storage-blob
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20246/default_79c7a01488eebdf30ca22b7316d9f77bbe7fad8b.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/azstorage_blob/requirements.txt
+  detection_source: llama_hub/azstorage_blob/requirements.txt
+  last_updated_by: Rivaaj Jumna
+  last_updated_on: 2023-05-21 21:12:44.000000000 Z
+- name: beautifulsoup4
+  description: Screen-scraping library
+  package_url: https://pypi.org/project/beautifulsoup4
+  version: 4.12.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19838/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/file/mbox/requirements.txt
+  last_updated_by: EmptyCrown
+  last_updated_on: 2023-02-07 07:54:33.000000000 Z
+- name: black
+  description: The uncompromising code formatter
+  package_url: https://pypi.org/project/black
+  version: 22.12.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20099/default_029b9bbfb6be2cd34bebeda5b8e1e80a1d22441c.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-05-31 00:18:57.000000000 Z
+- name: boto3
+  description: The AWS SDK for Python
+  package_url: https://pypi.org/project/boto3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19840/default_1c41e593803157c668b26f27387160254f0f5371.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/athena/requirements.txt
+  detection_source: llama_hub/athena/requirements.txt
+  last_updated_by: matichon-vultureprime
+  last_updated_on: 2023-10-13 20:01:53.000000000 Z
+- name: bs4
+  description: Dummy package for Beautiful Soup
+  package_url: https://pypi.org/project/bs4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19906/default_2aeed05332f0410b54817405c7e8e202a7e763cf.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/boarddocs/requirements.txt
+  detection_source: llama_hub/boarddocs/requirements.txt
+  last_updated_by: David E. Weekly
+  last_updated_on: 2023-05-17 16:16:14.000000000 Z
+- name: chromadb
+  description: Chroma
+  package_url: https://pypi.org/project/chromadb
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/chroma/requirements.txt
+  detection_source: llama_hub/chroma/requirements.txt
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-02-24 18:01:56.000000000 Z
+- name: discord.py
+  description: A python wrapper for the Discord API
+  package_url: https://pypi.org/project/discord.py
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20460/default_9a2df92d685d6540be25228e6b33cb090554923a.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/discord/requirements.txt
+  detection_source: llama_hub/discord/requirements.txt
+  last_updated_by: EmptyCrown
+  last_updated_on: 2023-02-04 04:41:20.000000000 Z
+- name: firebase-admin
+  description: Firebase Admin Python SDK
+  package_url: https://pypi.org/project/firebase-admin
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20517/default_35c96ceb69f6db523362c5b30e575b2d4ddfcab3.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/firebase_realtimedb/requirements.txt
+  detection_source: llama_hub/firebase_realtimedb/requirements.txt
+  last_updated_by: ajay
+  last_updated_on: 2023-07-02 16:24:08.000000000 Z
+- name: geopy
+  description: Python Geocoding Toolbox
+  package_url: https://pypi.org/project/geopy
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20597/default_765f8741ddac0d2e816e17438b35e7fda5019b4a.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/maps/requirements.txt
+  detection_source: llama_hub/maps/requirements.txt
+  last_updated_by: Dhilip R
+  last_updated_on: 2023-05-28 23:52:30.000000000 Z
+- name: google-api-python-client
+  description: Google API Client Library for Python
+  package_url: https://pypi.org/project/google-api-python-client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19897/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/gmail/requirements.txt
+  detection_source: llama_hub/gmail/requirements.txt
+  last_updated_by: Bruno Bornsztein
+  last_updated_on: 2023-03-08 11:25:52.000000000 Z
+- name: google-auth-oauthlib
+  description: Google Authentication Library
+  package_url: https://pypi.org/project/google-auth-oauthlib
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20240/default_8a23a3884b3073b5e1695e2320e46529e60882b3.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/gmail/requirements.txt
+  detection_source: llama_hub/gmail/requirements.txt
+  last_updated_by: Bruno Bornsztein
+  last_updated_on: 2023-03-08 11:25:52.000000000 Z
+- name: google-cloud-firestore
+  description: Google Cloud Firestore API client library
+  package_url: https://pypi.org/project/google-cloud-firestore
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20487/default_13373c456cf04faa5b7f33cd4c4095cbd571dfce.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/firestore/requirements.txt
+  detection_source: llama_hub/firestore/requirements.txt
+  last_updated_by: Ray Zhu
+  last_updated_on: 2023-06-06 07:29:31.000000000 Z
+- name: gql
+  description: GraphQL client for Python
+  package_url: https://pypi.org/project/gql
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/graphql/requirements.txt
+  detection_source: llama_hub/graphql/requirements.txt
+  last_updated_by: Michael Hunger
+  last_updated_on: 2023-05-23 22:48:55.000000000 Z
+- name: graphql-core
+  description: GraphQL implementation for Python
+  package_url: https://pypi.org/project/graphql-core
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20238/default_56465b2d1d207cb39051b8212003e52b6ffb328a.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/file/sdl/requirements.txt
+  detection_source: llama_hub/file/sdl/requirements.txt
+  last_updated_by: Adam Hofmann
+  last_updated_on: 2023-08-14 17:01:12.000000000 Z
+- name: html2text
+  description: Turn HTML into equivalent Markdown-structured text
+  package_url: https://pypi.org/project/html2text
+  version: 2020.1.16
+  license: GPL-3.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19982/default_ccb381b493daf0d966e015380e1894fdbc637ad3.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/boarddocs/requirements.txt
+  last_updated_by: David E. Weekly
+  last_updated_on: 2023-05-17 16:16:14.000000000 Z
+- name: httpx
+  description: The next generation HTTP client
+  package_url: https://pypi.org/project/httpx
+  version: 0.25.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20315/default_5f4e928dbcb1c4db4050881fc2e0229785fc931c.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/github_repo/requirements.txt
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-03-02 00:53:10.000000000 Z
+- name: huggingface-hub
+  description: Client library to download and publish models
+  package_url: https://pypi.org/project/huggingface-hub
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/huggingface/fs/requirements.txt
+  detection_source: llama_hub/huggingface/fs/requirements.txt
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-04-26 21:03:19.000000000 Z
+- name: isort
+  description: A Python utility / library to sort Python imports
+  package_url: https://pypi.org/project/isort
+  version: 5.11.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20117/default_9cf91bfbbfb266fc12a914cdc09d9e4b55c773bb.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-05-31 00:18:57.000000000 Z
+- name: jira
+  description: Python library for interacting with JIRA via REST APIs
+  package_url: https://pypi.org/project/jira
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20299/default_00525766b5d1b7a358cc1912c2d8907cee4c2347.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/jira/requirements.txt
+  detection_source: llama_hub/jira/requirements.txt
+  last_updated_by: Stephen Peterkins
+  last_updated_on: 2023-03-28 20:49:25.000000000 Z
+- name: langchain
+  description: Building applications with LLMs through composability
+  package_url: https://pypi.org/project/langchain
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/wordlift/requirements.txt
+  detection_source: llama_hub/wordlift/requirements.txt
+  last_updated_by: msftwarelab
+  last_updated_on: 2023-07-03 21:53:21.000000000 Z
+- name: lxml
+  description: Powerful and Pythonic XML processing library combining libxml2/libxslt
+    with the ElementTree API
+  package_url: https://pypi.org/project/lxml
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19835/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/docugami/requirements.txt
+  detection_source: llama_hub/docugami/requirements.txt
+  last_updated_by: Taqi Jaffri
+  last_updated_on: 2023-05-19 05:37:50.000000000 Z
+- name: msal
+  description: The Microsoft Authentication Library
+  package_url: https://pypi.org/project/msal
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/microsoft_onedrive/requirements.txt
+  detection_source: llama_hub/microsoft_onedrive/requirements.txt
+  last_updated_by: Godwin Paul
+  last_updated_on: 2023-10-25 12:41:48.000000000 Z
+- name: nbconvert
+  description: Converting Jupyter Notebooks
+  package_url: https://pypi.org/project/nbconvert
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20059/default_07febc56eb57b6d4c91eb3ad11874d5d88882ab0.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/file/ipynb/requirements.txt
+  detection_source: llama_hub/file/ipynb/requirements.txt
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-04-26 17:43:55.000000000 Z
+- name: newspaper3k
+  description: Simplified python article discovery &amp; extraction
+  package_url: https://pypi.org/project/newspaper3k
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/web/news/requirements.txt
+  detection_source: llama_hub/web/news/requirements.txt
+  last_updated_by: Dan Check
+  last_updated_on: 2023-10-20 13:36:35.000000000 Z
+- name: nltk
+  description: Natural Language Toolkit
+  package_url: https://pypi.org/project/nltk
+  version: 3.8.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20023/default_b0d1a54f127d7017fce41c15f5e85568fb7019ed.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/file/unstructured/requirements.txt
+  last_updated_by: Jesse Zhang
+  last_updated_on: 2023-02-08 06:12:24.000000000 Z
+- name: openai
+  description: The official Python library for the openai API
+  package_url: https://pypi.org/project/openai
+  version: 1.3.5
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/llama_packs/gradio_react_agent_chatbot/requirements.txt
+  last_updated_by: Logan
+  last_updated_on: 2023-11-22 01:12:31.000000000 Z
+- name: opencv-python
+  description: Wrapper package for OpenCV python bindings
+  package_url: https://pypi.org/project/opencv-python
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/pdf_table/requirements.txt
+  detection_source: llama_hub/pdf_table/requirements.txt
+  last_updated_by: Seyoung Kim
+  last_updated_on: 2023-08-24 02:32:46.000000000 Z
+- name: pandas
+  description: Powerful data structures for data analysis
+  package_url: https://pypi.org/project/pandas
+  version: 2.0.3
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19837/default_85689b353a3a9409328e253ea28d859d29151e0c.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/file/pandas_csv/requirements.txt
+  last_updated_by: EmptyCrown
+  last_updated_on: 2023-02-04 04:41:20.000000000 Z
+- name: pdf2image
+  description: A wrapper around the pdftoppm and pdftocairo command line tools to
+    convert PDF to a PIL Image list
+  package_url: https://pypi.org/project/pdf2image
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/confluence/requirements.txt
+  detection_source: llama_hub/confluence/requirements.txt
+  last_updated_by: William Li
+  last_updated_on: 2023-04-01 17:18:46.000000000 Z
+- name: pdfminer.six
+  description: PDF parser and analyzer
+  package_url: https://pypi.org/project/pdfminer.six
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20347/default_19b737f8f858a0bc83d9eee02c6d810fabdc8056.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/file/cjk_pdf/requirements.txt
+  detection_source: llama_hub/file/cjk_pdf/requirements.txt
+  last_updated_by: Shimajiro
+  last_updated_on: 2023-02-15 17:03:03.000000000 Z
+- name: praw
+  description: PRAW
+  package_url: https://pypi.org/project/praw
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20605/default_3aa7d93e5dadf8a0123c65abeccd198669792007.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/reddit/requirements.txt
+  detection_source: llama_hub/reddit/requirements.txt
+  last_updated_by: Yichen Yan
+  last_updated_on: 2023-03-06 10:05:45.000000000 Z
+- name: psutil
+  description: Cross-platform lib for process and system monitoring in Python
+  package_url: https://pypi.org/project/psutil
+  version: 5.9.6
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19851/default_ac77a75c05474acf9389d56b1f5cc8241af4c384.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-05-31 00:18:57.000000000 Z
+- name: py-trello
+  description: Python wrapper around the Trello API
+  package_url: https://pypi.org/project/py-trello
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/trello/requirements.txt
+  detection_source: llama_hub/trello/requirements.txt
+  last_updated_by: Vlad Kooklev
+  last_updated_on: 2023-04-20 05:08:34.000000000 Z
+- name: pyaml
+  description: PyYAML-based module to produce pretty and readable YAML-serialized
+    data
+  package_url: https://pypi.org/project/pyaml
+  version: 23.9.7
+  license: WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19990/default_f2178576c59f6927768590a32b6ef092891768c5.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Logan
+  last_updated_on: 2023-11-17 21:58:49.000000000 Z
+- name: pydub
+  description: Manipulate audio with an simple and easy high level interface
+  package_url: https://pypi.org/project/pydub
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/file/audio/requirements.txt
+  detection_source: llama_hub/file/audio/requirements.txt
+  last_updated_by: EmptyCrown
+  last_updated_on: 2023-02-04 04:41:20.000000000 Z
+- name: pymongo
+  description: Python driver for MongoDB &lt;http://www.mongodb.org&gt;
+  package_url: https://pypi.org/project/pymongo
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19865/default_7975a21f3bf03129dc3bc4168cf7cb7ee2cc14cc.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/mongo/requirements.txt
+  detection_source: llama_hub/mongo/requirements.txt
+  last_updated_by: EmptyCrown
+  last_updated_on: 2023-02-04 04:41:20.000000000 Z
+- name: pyppeteer
+  description: Headless chrome/chromium automation library
+  package_url: https://pypi.org/project/pyppeteer
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/llama_packs/amazon_product_extraction/requirements.txt
+  detection_source: llama_hub/llama_packs/amazon_product_extraction/requirements.txt
+  last_updated_by: Jerry Liu
+  last_updated_on: 2023-11-28 08:41:08.000000000 Z
+- name: pytesseract
+  description: Python-tesseract is a python wrapper for Google's Tesseract-OCR
+  package_url: https://pypi.org/project/pytesseract
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20381/default_135579e95b2b6e219789a65aaca198fa4c877f7a.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/confluence/requirements.txt
+  detection_source: llama_hub/confluence/requirements.txt
+  last_updated_by: William Li
+  last_updated_on: 2023-04-01 17:18:46.000000000 Z
+- name: pytest
+  description: 'Pytest: simple powerful testing with Python'
+  package_url: https://pypi.org/project/pytest
+  version: 7.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19843/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Loeber
+  last_updated_on: 2023-10-05 21:56:47.000000000 Z
+- name: pytest-asyncio
+  description: Pytest support for asyncio
+  package_url: https://pypi.org/project/pytest-asyncio
+  version: 0.21.1
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Loeber
+  last_updated_on: 2023-10-05 21:56:47.000000000 Z
+- name: pytest-mock
+  description: Thin-wrapper around the mock package for easier use with py.test
+  package_url: https://pypi.org/project/pytest-mock
+  version: 3.11.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20244/default_fc0d35561378e21d3174def06634c96515818661.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Patrick Loeber
+  last_updated_on: 2023-10-05 21:56:47.000000000 Z
+- name: ratelimit
+  description: API rate limit decorator
+  package_url: https://pypi.org/project/ratelimit
+  version: 2.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20481/default_53ec395d3cbc3d93c33946e7e0873b0b6aded451.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/sec_filings/requirements.txt
+  detection_source: llama_hub/sec_filings/requirements.txt
+  last_updated_by: Astarag Mohapatra
+  last_updated_on: 2023-07-29 06:20:39.000000000 Z
+- name: rdflib
+  description: RDFLib is a Python library for working with RDF
+  package_url: https://pypi.org/project/rdflib
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20004/default_87268cab0d3a3b3acf3aa0576d4b114b8e4c2521.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/file/rdf/requirements.txt
+  detection_source: llama_hub/file/rdf/requirements.txt
+  last_updated_by: Tommaso Soru
+  last_updated_on: 2023-02-25 07:30:56.000000000 Z
+- name: requests
+  description: Python HTTP for Humans
+  package_url: https://pypi.org/project/requests
+  version: 2.31.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19826/default_d7c684bf2673f008a9f02ac93901229297a22d7e.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/bilibili/requirements.txt
+  last_updated_by: Ji
+  last_updated_on: 2023-02-20 08:38:03.000000000 Z
+- name: retrying
+  description: Retrying
+  package_url: https://pypi.org/project/retrying
+  version: 1.3.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20013/default_70556f9333e0a39c148cac0c36ca24235943f270.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/confluence/requirements.txt
+  last_updated_by: aerickson-clt
+  last_updated_on: 2023-06-26 20:30:48.000000000 Z
+- name: scikit-learn
+  description: A set of python modules for machine learning and data mining
+  package_url: https://pypi.org/project/scikit-learn
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19898/default_4343f8bba4f6051641ffca8b4fbe9b099402c84d.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/sec_filings/requirements.txt
+  detection_source: llama_hub/sec_filings/requirements.txt
+  last_updated_by: Astarag Mohapatra
+  last_updated_on: 2023-07-29 06:20:39.000000000 Z
+- name: selenium
+  description: Python bindings for Selenium
+  package_url: https://pypi.org/project/selenium
+  version: 4.8.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19869/default_d05f6f09935776629f62e8aed365805502c14921.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/imdb_review/requirements.txt
+  detection_source: llama_hub/imdb_review/requirements.txt
+  last_updated_by: Astarag Mohapatra
+  last_updated_on: 2023-10-09 10:38:22.000000000 Z
+- name: simple-salesforce
+  description: A basic Salesforce.com REST API client
+  package_url: https://pypi.org/project/simple-salesforce
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/tools/salesforce/requirements.txt
+  detection_source: llama_hub/tools/salesforce/requirements.txt
+  last_updated_by: Chris Pang
+  last_updated_on: 2023-09-12 04:50:27.000000000 Z
+- name: spotipy
+  description: Simple client for the Spotify Web API
+  package_url: https://pypi.org/project/spotipy
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20447/default_3594ac2294a6aa0f41792d27e3f019e66d1684f7.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/spotify/requirements.txt
+  detection_source: llama_hub/spotify/requirements.txt
+  last_updated_by: Edwin Ong
+  last_updated_on: 2023-02-24 00:19:05.000000000 Z
+- name: starlette
+  description: The little ASGI library that shines
+  package_url: https://pypi.org/project/starlette
+  version: 0.30.0
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20295/default_640b00772a7025571fa2ac02de971e76f9662aa9.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/sec_filings/requirements.txt
+  detection_source: llama_hub/sec_filings/requirements.txt
+  last_updated_by: Astarag Mohapatra
+  last_updated_on: 2023-07-29 06:20:39.000000000 Z
+  vulnerabilities:
+  - name: python-multipart vulnerable to Content-Type Header ReDoS
+    cve_id: CVE-2024-24762
+    cve_url: https://github.com/advisories/GHSA-2jv5-9r88-3w3p
+    detected_date: Feb 17
+    severity: high
+    first_patched: 0.36.2
+  - name: 'Duplicate Advisory: Starlette Content-Type Header ReDoS'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-93gm-qmq6-w238
+    detected_date: Feb 6
+    severity: high
+    first_patched: 0.36.2
+- name: tenacity
+  description: Retry code until it succeeds
+  package_url: https://pypi.org/project/tenacity
+  version: 8.2.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20027/default_fd02050783f95269bfcc5c4d11f1c75dd423cd1d.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/earnings_call_transcript/requirements.txt
+  last_updated_by: Astarag Mohapatra
+  last_updated_on: 2023-11-28 19:28:33.000000000 Z
+- name: torchvision
+  description: Image and video datasets and models for torch deep learning
+  package_url: https://pypi.org/project/torchvision
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20377/default_86c41789cbd5dc6b872b122419740f58f5d2f18a.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/file/image/requirements.txt
+  detection_source: llama_hub/file/image/requirements.txt
+  last_updated_by: EmptyCrown
+  last_updated_on: 2023-02-04 04:41:20.000000000 Z
+- name: tqdm
+  description: Fast, Extensible Progress Meter
+  package_url: https://pypi.org/project/tqdm
+  version: 4.66.1
+  license: MPL-2.0,MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19846/default_accee5d2b8ed75c2245f13504daf75b1cbc8cc9f.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/rayyan/requirements.txt
+  last_updated_by: Hossam Hammady
+  last_updated_on: 2023-10-07 16:38:17.000000000 Z
+- name: tweepy
+  description: Twitter library for python
+  package_url: https://pypi.org/project/tweepy
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20397/default_49831882be649a3ae5c46617c462b503ba8fccbc.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/twitter/requirements.txt
+  detection_source: llama_hub/twitter/requirements.txt
+  last_updated_by: EmptyCrown
+  last_updated_on: 2023-02-04 04:41:20.000000000 Z
+- name: typing
+  description: Type Hints for Python
+  package_url: https://pypi.org/project/typing
+  license: Python-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19868/default_bd86f80ade48cfe191d5781a2efa0e66fa22163a.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/docugami/requirements.txt
+  detection_source: llama_hub/docugami/requirements.txt
+  last_updated_by: Taqi Jaffri
+  last_updated_on: 2023-05-19 05:37:50.000000000 Z
+- name: typing-inspect
+  description: Runtime inspection utilities for typing module
+  package_url: https://pypi.org/project/typing-inspect
+  version: 0.8.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: pyproject.toml
+  last_updated_by: Nikhil Thorat
+  last_updated_on: 2023-10-31 15:29:38.000000000 Z
+- name: urllib3
+  description: HTTP library with thread-safe connection pooling
+  package_url: https://pypi.org/project/urllib3
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/poetry.lock
+  detection_source: llama_hub/sec_filings/requirements.txt
+  last_updated_by: Astarag Mohapatra
+  last_updated_on: 2023-07-29 06:20:39.000000000 Z
+- name: websocket-client
+  description: WebSocket client for Python. hybi13 is supported
+  package_url: https://pypi.org/project/websocket-client
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/19910/default_67f813d4aac73d024261bcfded6ef2b918e384a0.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/reddit/requirements.txt
+  detection_source: llama_hub/reddit/requirements.txt
+  last_updated_by: Yichen Yan
+  last_updated_on: 2023-03-06 10:05:45.000000000 Z
+- name: wikipedia
+  description: Wikipedia API for Python
+  package_url: https://pypi.org/project/wikipedia
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/llama_packs/gradio_react_agent_chatbot/requirements.txt
+  detection_source: llama_hub/llama_packs/gradio_react_agent_chatbot/requirements.txt
+  last_updated_by: Logan
+  last_updated_on: 2023-11-22 01:12:31.000000000 Z
+- name: xlrd
+  description: Library for developers to extract data from Microsoft Excel
+  package_url: https://pypi.org/project/xlrd
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/20182/default_3d320a0aa731f16ceb0e7b6999ca7f7cd784aee2.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/confluence/requirements.txt
+  detection_source: llama_hub/confluence/requirements.txt
+  last_updated_by: William Li
+  last_updated_on: 2023-04-01 17:18:46.000000000 Z
+- name: zulip
+  description: Bindings for the Zulip message API
+  package_url: https://pypi.org/project/zulip
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: PyPI Packages
+  image_url: https://img.stackshare.io/package/pypi/image.png
+  detection_source_url: https://github.com/ramzimalhas/llama-hub/blob/main/llama_hub/zulip/requirements.txt
+  detection_source: llama_hub/zulip/requirements.txt
+  last_updated_by: bluenote
+  last_updated_on: 2023-04-13 05:41:21.000000000 Z
